@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+ 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  min-height: 100vh;
+}
+
+
+.container{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color:	#808080;
+}
+
+.card{
+  
+  position: relative;
+  background: #fff;
+  max-width: 350px;
+  width: 350px;
+  margin: 20px;
+  border-radius: 2px;
+  box-shadow: 0 5px 25px rgb(1 1 1 / 10%);
+}
+
+.card-image{
+  max-height: 200px;
+  overflow: hidden;
+
+}
+
+.card-image img{
+  max-width: 100%;
+  height: auto;
+}
+
+.card-info{
+  position: relative;
+  color: #222;
+  padding: 20px;
+
+}
+.card-info h3{
+  font-size: 1.4em;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.card-info p{
+  font-size: 1em;
+  margin-bottom: 15px;
+  
+}
+
+.card-info .card-mediaIcons{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+
+.card-info .card-mediaIcons a{
+  color: #999;
+  font-size: 1.4em;
+  margin: 0 10px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 50%;
+  transition: color 0.3s ease;
+  
+}
+
+.card-info .card-mediaIcons a:hover{
+  color: #222;
+ 
+}
+
+
